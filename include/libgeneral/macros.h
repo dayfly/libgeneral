@@ -51,8 +51,6 @@
 #   else
 #       define debug(a ...)
 #   endif
-#else
-#   include CUSTOM_LOGGING
 #endif
 
 #define safeFree(ptr) ({if (ptr) free(ptr),ptr=NULL;})
